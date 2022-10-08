@@ -1,0 +1,169 @@
+/* colors https://colorhunt.co/palette/ffe194e8f6efb8dfd84c4c6d */
+
+:root {
+    --body-text: #90AACB;
+    /* --body-text: #40514E; */
+    --h1-h2: #F9D5A7;
+    --h3: #c98a69;
+    /* --h1-h2: #66bfbf; */
+    /* --h3: #11999e; */
+    --hr: #90AACB;
+    /* --hr: #bac5c5; */
+    --top-container-bg: #FEF1E6;
+    /* --top-container-bg: #EAF6F6; */
+    --btn-bg: #ffe2bc;
+    --btn-hover: #e3a430;
+    /* --btn-bg: #11cdd4; */
+    /* --btn-hover: #30e3cb; */
+    --btn-text: var(--h3);
+    /* --btn-text: var(--top-container-bg); */
+    --bottom-container: var(--h1-h2);
+    --a-href: var(--h3);
+    --a-href-hover: var(--top-container-bg);
+    --copyright: var(--top-container-bg);
+}
+
+
+/* ******************************************* Tags ******************************************* */
+
+a {
+    color: var(--a-href);
+    font-family: "Maven Pro", sans-serif;
+    font-size: large;
+    margin: 5px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--a-href-hover)
+}
+
+body {
+    color: var(--body-text);
+    font-family: "Josefin Slab", serif;
+    font-size: 158x;
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--h1-h2);
+    font-family: "Bad Script", cursive;
+    font-size: 5.5rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: var(--h1-h2);
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: var(--h3);
+    font-family: "Maven Pro", sans-serif;
+}
+
+hr {
+    border-color: var(--hr);
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 8px;
+    height: 0px;
+    width: 8%;
+    margin: 50px auto;
+}
+
+
+/* ******************************************* Class ******************************************* */
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.bottom-container {
+    background-color: var(--bottom-container);
+    margin-top: 100px auto 50px;
+    padding: 25px;
+}
+
+.btn {
+    -moz-border-radius: 8;
+    -webkit-border-radius: 8;
+    background: var(--btn-bg);
+    border-radius: 8px;
+    color: var(--btn-text);
+    font-family: "Maven Pro", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: var(--btn-hover);
+    text-decoration: none;
+}
+
+.copyright {
+    color: var(--top-container-bg);
+}
+
+.game-controller-img {
+    float: left;
+    margin-right: 30px;
+    max-width: 275px;
+    width: 25%;
+}
+
+.middle-container {
+    margin-bottom: 50px;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile-img {
+    max-width: 200px;
+    padding-top: 10px;
+    width: 15%;
+}
+
+.pronouns {
+    margin: 0 auto 50px;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    max-width: 600px;
+    text-align: left;
+    width: 50%;
+}
+
+.skill-row-img {
+    float: right;
+    margin-left: 30px;
+    max-width: 200px;
+    width: 25%;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.top-cloud {
+    left: 200px;
+    position: relative;
+}
+
+.top-containter {
+    background-color: var(--top-container-bg);
+    padding-top: 50px;
+    position: relative;
+}
+
+.underline {
+    text-decoration: underline;
+}
